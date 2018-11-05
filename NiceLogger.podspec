@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
   s.ios.vendored_frameworks = 'NiceLogger.framework'
-  s.source            = { :http => 'https://bitbucket.org/durodolahabib043/hideframeworkn/src/master' }
+  s.source            = { :http => 'https://bitbucket.org/durodolahabib043/hideframeworkn/src/master/my_extensions.zip' }
 
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
